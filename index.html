@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- INÍCIO HEADER -->
+    <header>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#projects">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    <!-- FIM HEADER -->
+
+    <!-- ÍNICIO HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou a Lívia!</h2>
+        <span class="home-position">Curso Análises e desenvolvimento de sistemas</span>
+        <span class="home-resume">
+          Sou estudante da faculdade Uninter. Como hobbie eu tinha/tenho a maquiagem,
+          porém atualmente é o meu trabalho. Sou maquiadora junto com minha sócia que é minha irmã gêmea.
+          Desde muito novinha me interessava pela área da tecnologia como jogos de PC.
+        </span>
+
+        <button>
+          <a href="#contact">Meu contato</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/pessoa.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- FIM HOME -->
+
+    <!-- INÍCIO FORMAÇÃO -->
+    <section id="formacao">
+        <div class="formacao-info">
+          <h2>Formação</h2>
+          <span class="formacao-position">Rumo a me tornar uma DEV...</span>
+          <span class="formacao-resume">
+           No momento cursando Análises e Desenvolvimento de sistemas.
+           Já cursei 2 anos de Biomedicina e parei devido a pandemia;
+           Tenho inglês intermediário e sempre gostei muito da área da tecnologia. 
+          </span>
+        </div>
+    </section>
+    <!-- FIM FORMAÇÃO -->
+    
+    <!-- INÍCIO PORTFÓLIO-->
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/figma.png" alt="Foto do protótipo Figma">
+            </div>
+            <div class="project-info">
+              <h2>Protótipo no Figma</h2>
+              <p>Esse é um protótipo feito no figma para uma das disciplinas do curso.</p>
+            </div>
+          </div>
+     
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- FIM PORTFÓLIO -->
+
+  <!-- INÍCIO CONTATO -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    copyright © 2023 Lívia Melo. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- FIM CONTATO -->
